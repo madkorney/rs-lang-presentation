@@ -95,8 +95,6 @@
 .screens-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
-  /* grid-template-rows: 30vh; */
   gap: 10px;
   padding-left: 50px;
 }
@@ -112,7 +110,6 @@
 }
 
 .sloth-pic img {
-  /* align-self: flex-end; */
   border-radius: 50%;
   height: 300px;
 }
