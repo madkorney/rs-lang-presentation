@@ -1,0 +1,130 @@
+.team-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.member-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.member-img-icon-container {
+  position: relative;
+  height: 190px;
+  width: 160px;
+
+  /* border: 1px solid red; */
+}
+
+.member-photo img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.city-icon img {
+  width: 40px;
+  height: auto;
+  position: relative;
+  bottom: 80px;
+  right: -50px;
+}
+
+.city-name {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  bottom: -100px;
+  position: relative;
+  top: -135px;
+
+}
+
+.member-text-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.member-text {
+  font-size: 14px;
+}
+
+
+.reversed {
+  flex-direction: row-reverse;
+}
+
+.team-list {
+  padding-left: 3rem;
+  font-size: 2rem;
+}
+
+.sub-title {
+  align-self: flex-start;
+  padding-left: 1.5rem;
+  color: gray;
+}
+
+.agenda-sublist {
+  font-size: 0.5em;
+  color: lightgray;
+}
+
+.text-md {
+  font-size: 2rem;
+}
+
+.text-s {
+  font-size: 1.5rem;
+}
+
+.warning {
+  color: darkred;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.why-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.screens-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  /* grid-template-rows: 30vh; */
+  gap: 10px;
+  padding-left: 50px;
+}
+
+.screens-container img {
+  height: 30vh;
+  width: auto;
+}
+
+.sloth-pic {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sloth-pic img {
+  /* align-self: flex-end; */
+  border-radius: 50%;
+  height: 300px;
+}
+
+.prs-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.screenshots-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
