@@ -9,11 +9,11 @@ Main app features:
 - Two games for words memorizing - Audiocall and Sprint
 - Learned words progress tracking for authorized users
 
-Presentation deploy link: [https://madkorney.github.io/presentation-rs-lang/](https://madkorney.github.io/presentation-rs-lang/) 
+Presentation deploy link: [https://madkorney.github.io/rs-lang-presentation/](https://madkorney.github.io/rs-lang-presentation/) 
 
 ## Additional info
 Task link: [https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md)  
 RS Lang repo: [https://github.com/1LisaW/rslang/pull/46](https://github.com/1LisaW/rslang/pull/46)  
 RS Lang deploy link: [https://1lisaw.github.io/rslang/](https://1lisaw.github.io/rslang/)  
 Cross-check score: 620 out of 620 points  
-Live presenation: 2022-09-13, 18:00 UTC+3  
+Live presenation: 2022-09-13, 18:00 UTC+3  (done)
