@@ -53,3 +53,19 @@
 .reversed {
   flex-direction: row-reverse;
 }
+
+.team-list {
+  padding-left: 3rem;
+  font-size: 2rem;
+}
+
+.sub-title {
+  align-self: flex-start;
+  padding-left: 1.5rem;
+  color: gray;
+}
+
+.agenda-sublist {
+  font-size: 0.5em;
+  color: lightgray;
+}
