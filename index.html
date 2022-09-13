@@ -55,6 +55,7 @@
 							</ul>
 						</li>
 						<li>Resume</li>
+						<li>Q&A</li>
 					</ul>
 					<aside class="notes">
 					</aside>
@@ -62,17 +63,23 @@
 
 				<section>
 					<h3>What is the RS Lang App?</h3>
-					<ul class="text-md">
-						<li>English language is no doubt the most popular and widely used language of communication at present time.</li>
-						<li>Strong English is one of the key skills for a person to get a job.</li>
-						<li>However when you are studying Englsih there is a problem .. </li>
-						<br/>
-					</ul>
+					<div class="why-container">
+						<ul class="text-md">
+							<li>English language is no doubt the most popular and widely used language yet.</li>
+							<li>Strong English is one of the key skills to get a job today.</li>
+							<li>However when you are studying Englsih there is a problem .. </li>
+							<br/>
+						</ul>
+						<div>
+							<img src="assets/img/learning_russian_12.jpg" alt="tutorial page">
+						</div>	
+				  </div>
 					<div class="warning">
 						... Knowing English grammar is not enough when your vocabulary is not large enough
 					</div>
+					<!-- <br/> -->
 					<div class="align-left text-md">
-						So the solution is the RS LANG app with access to English basic words vocabulary , in total 3600 words in 6 difficulty categories, it includes two games to make words learning and ability to track your progress.
+						So the solution is the RS LANG APP with access to English basic words vocabulary , in total 3600 words in 6 difficulty categories, it includes two games to make words learning funny and ability to track your progress.
 					</div>
 					<aside class="notes">
 						why we need this app (not just because it was a given task)
@@ -142,21 +149,165 @@
 				</section>
 
 				<section>
-					<h3>App features</h3>
-					<aside class="notes">
-					</aside>
+
+					<section>
+						<h3>App features</h3>
+						<ul class="text-md">
+							<li>Vocabulary, 3600 words in 6 difficulty categories
+								<ul class="text-s">
+									<li>russian translation</li>
+									<li>transcription</li>
+									<li>explanation of usgage</li>
+									<li>phrase example</li>
+									<li>associative picture</li>
+									<li>audio clips for pronunciation training</li>
+								</ul>
+							</li>
+							<li>Games for words learning
+								<ul class="text-s">
+									<li>Audiocall - to train audition</li>
+									<li>Sprint - to train quick translation recall</li>
+								</ul>
+							</li>
+							<li>User Authentification. Registered user is able:
+								<ul class="text-s">
+									<li>to track words learning process - new words, learned words, correct answers perventage etc</li>
+									<li>to mark words as "learned" to exclude it from games</li>
+									<li>to mark words as "complicated" to add to custom Vocabulary section</li>
+								</ul>
+							</li>
+					  </ul>
+						<aside class="notes">
+							<p>from user perspective - features</p>
+							<p>from architecture perspective - CSR SPA with rouring , API based access to vocabulary</p>
+						</aside>
+				  </section>
+
+					<section>
+						<h3>App Screenshots/demo</h3>
+						<div class="screens-container">
+							<img src="assets/img/scr2.jpg" alt="screendhot">
+							<img src="assets/img/scr3.jpg" alt="screendhot">
+							<img src="assets/img/scr6.jpg" alt="screendhot">
+							<img src="assets/img/scr5.jpg" alt="screendhot">
+						</div>
+					</section>
+
+					<section>
+						<h3>Extra features</h3>
+						<ul>
+							<li>Ability to add a word to "complicated" from the game</li>
+							<li>Ability to check short term progress for previous dates</li>
+							<li>Long term statistics on charts</li>
+						</ul>
+					</section>
+
+
 				</section>
 
 				<section>
-					<h3>Our Workflow</h3>
-					<aside class="notes">
-					</aside>
+
+					<section>
+						<h3>Our Workflow - RACI matrix</h3>
+							<img src="assets/img/globus_.png" alt="owl">
+						<aside class="notes">
+							RACI матрица - очень важный и нужный инструмент, но слабо применим для маленького проекта и команды из 3 человек без выделенных ролей
+						</aside>
+					</section>
+
+					<section>
+						<h3>Our Workflow - Contributions</h3>
+						<img src="assets/img/contributions.jpg" alt="member contributions">
+					</section>
+
+					<section>
+						<h3>Our Workflow - Comms and Tools</h3>
+						<ul>
+							<li>Trello - task planning and tracking</li>
+							<li>Discord - communications</li>
+							<li>Miro - drafts, mockups</li>
+						</ul>
+						<div class="screenshots-container">
+							<img src="assets/img/trello_exmpl1.jpg" alt="sceenshot">
+							<img src="assets/img/miro1.jpg" alt="sceenshot">
+							<img src="assets/img/disc_exmpl1.jpg" alt="sceenshot">
+						</div>
+					</section>
+
 				</section>
 
 				<section>
-					<h3>Tech Stack</h3>
-					<aside class="notes">
-					</aside>
+					<section>
+						<h3>Tech Stack</h3>
+						<ul>
+							<li>Main stack
+								<ul class="text-s">
+									<li>Typescript</li>
+									<li>React</li>
+									<li>Redux, Redux Toolkit</li>
+									<li>Material UI</li>
+								</ul>
+							</li>
+							<li>Additional Libraries
+								<ul class="text-s">
+									<li>ZOD - for user input validation</li>
+									<li>DOMPurify - to secure html injections</li>
+									<li>Chart.js - charts for statistics</li>
+								</ul>
+							</li>
+							<li>Tools
+								<ul class="text-s">
+									<li>Create-React-App - for initial app setup</li>
+									<li>Eslint, prettier - for clean code</li>
+									<li>API test tools - Swagger, Postman</li>
+									<li>Auto deploy to gh-pages</li>
+								</ul>
+							</li>
+						</ul>
+						<img src="assets/img/tech_stack.png" alt="space tech">
+
+					  <aside class="notes">
+							PRs - T 23, W 16, S 9<br/>
+							commits - T 66, W 54, S 44
+					  </aside>
+					</section>
+
+					<section>
+						<h3>PRs and Commits</h3>
+						<div class="prs-container">
+							<ul class="text-md">
+								<li>Development in branches</li>
+								<li>PR > code review > merge into "Development"</li>
+								<li>Weekly merge into protected "Stage"</li>
+								<li>Auto deploy from "Stage" to gh-pages</li>
+								<li>total statistics
+									<ul class="text-s">
+										<li>48 PR</li>
+										<li>237 commits</li>
+									</ul>
+
+								</li>
+							</ul>
+							<img src="assets/img/cmts3.jpg" alt="commits stats">
+				  	</div>
+					  <aside class="notes">
+					  </aside>
+					</section>
+
+					<section>
+						<h3>Encountered problems</h3>
+						<ul>
+							<li>Router issue at build</li>
+							<li>Audio component complication</li>
+						</ul>
+					  <aside class="notes">
+							как решили с аудио?
+					  </aside>
+						<div class="sloth-pic">
+							<img src="assets/img/deadline.png" alt="dead">
+						</div>
+					</section>
+
 				</section>
 
 				<section>
@@ -168,9 +319,18 @@
 						<li>Weranika is the best candidate for Polish EPAM!</li>
 					</ul>
 
+
+
 					<aside class="notes">
-						спасибо всем, крутой курс, крутой ментор, крутая команда
+						спасибо всем, крутой курс, крутой ментор, крутая команда.
+						<br/>
+						планируем допилить , чтобы добавить в портфолио
+
 					</aside>
+				</section>
+
+				<section>
+					<h1>Questions?</h1>
 				</section>
 
 			</div>
