@@ -69,3 +69,16 @@
   font-size: 0.5em;
   color: lightgray;
 }
+
+.text-md {
+  font-size: 2rem;
+}
+
+.warning {
+  color: darkred;
+}
+
+.align-left {
+  text-align: left;
+}
+
